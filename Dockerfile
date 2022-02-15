@@ -7,13 +7,6 @@ WORKDIR /app
 # Copy the files into the image
 COPY . .
 
-#Update the files and install maven
-#RUN apt-get update && \
-#    apt-get install -y maven
-
-#Build Command
-#RUN mvn clean install
-
 #Exposing the port
 EXPOSE 8080
 
